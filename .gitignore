@@ -1,0 +1,16 @@
+# Rust
+/target
+
+# Banco SQLite local
+*.db
+*.db-shm
+*.db-wal
+
+# Env
+.env
+!.env.example
+
+# Frontend
+node_modules/
+dist/
+*.tsbuildinfo
